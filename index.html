@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+	<title>Navbar component using JQuery</title>
+	
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- coding for navigation Bar -->
+	<div class="navbar" id="myNavbar">
+
+		<div class="navbar-content">
+
+			<a class="navbar-logo">Company</a>
+
+			<a href="#" class="active">Home</a>
+
+			<a href="#">News</a>
+			
+			<div class="dropdown">
+				<button class="dropbtn">Dropdown 
+					<i class="fa fa-caret-down"></i>
+				</button>
+
+				<div class="dropdown-content">
+					<a href="#">Action</a>
+					<a href="#">Another Action</a>
+					<a href="#">More Actions</a>
+					<a href="#">No Action</a>
+				</div>
+			</div> <!-- end of dropdown class -->
+
+			<div class="searching">
+				<form>
+					<input type="text" placeholder="Search..." name="search">
+					<button type="submit">Search</button>
+				</form>
+			</div> <!-- end of searching class -->
+
+			<a class="icon">&#9776;</a>
+
+		</div> <!-- end of navbar-content class -->
+	</div> <!-- end of navbar class -->
+
+	
+<div class="miniBar">
+	<div class="content">
+		
+		<a href="#" class="active">Home</a>
+
+		<a href="#">News</a>
+
+		<div class="drop">
+			<button class="dropb">Dropdown 
+				<i class="fa fa-caret-down"></i>
+			</button>
+
+			<div class="drop-content">
+				<a href="#">Action</a>
+				<a href="#">Another Action</a>
+				<a href="#">More Actions</a>
+				<a href="#">No Action</a>
+			</div>
+		</div> <!-- end of drop class -->
+
+		<div class="search">
+			<form>
+				<input type="text" placeholder="Search..." name="search">
+				<button type="submit">Search</button>
+			</form>
+		</div> <!-- end of search class -->
+
+	</div> <!-- end of content class -->
+</div> <!-- end of miniBar class -->
+
+<h2>Navbar component using JQuery</h2>
+<p>Displayed above is a sampler of <strong>Navbar</strong> component fixed on top of screen created using HTML, CSS and JQuery. Please resize the screen to see the action of this component in small screens.</p>
+
+
+<!-- javascript file(s) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
